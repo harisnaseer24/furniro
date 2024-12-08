@@ -6,7 +6,7 @@ export function Header (){
         <>
         
         <Navbar />
-        <Banner/>
+        <Banner text="banner"/>
         </>
     );
 }

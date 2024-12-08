@@ -1,7 +1,7 @@
 export function Banner (props:any){
     return(
-        <h1>Banner</h1>
-        
+        <h1>{props.text}</h1>
+
 
     );
 }
