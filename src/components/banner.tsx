@@ -1,4 +1,4 @@
-export function Banner (props:any){
+export function Banner (props:{ text: string; }){
     return(
         <h1>{props.text}</h1>
 
