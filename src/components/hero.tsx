@@ -6,7 +6,7 @@ export default function Hero() {
     {/* Hero Section */}
     <div className="relative w-full h-[63rem]">
       <Image
-        src="/images/BannerHome.png"
+        src="/images/home/BannerHome.png"
         width={1440}
         height={100}
         alt="Hero Banner"
