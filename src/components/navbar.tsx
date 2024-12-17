@@ -22,13 +22,13 @@ export default function Navbar() {
           <Link href={"/"}>
             <li>Home</li>
           </Link>
-          <Link href={"/shop"}>
+          <Link href={"/Shop"}>
             <li>Shop</li>
           </Link>
-          <Link href={"/blog"}>
+          <Link href={"/Cart"}>
             <li>Blog</li>
           </Link>
-          <Link href={"/contact"}>
+          <Link href={"/Contact"}>
             <li>Contact</li>
           </Link>
         </ul>
@@ -38,7 +38,10 @@ export default function Navbar() {
         <MdPersonOutline />
         <CiSearch />
         <GoHeart />
+        <Link href={"/Cart"}>
         <AiOutlineShoppingCart />
+          </Link>
+      
 
         </div>
 
