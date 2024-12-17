@@ -62,10 +62,7 @@ export default function ProductSection() {
 
   return (
     <>
-      {/* Product Section Header */}
-      <div className="product">
-        <h2 className="text-center p-4 font-bold text-3xl md:text-5xl">Our Products</h2>
-      </div>
+     
 
       {/* Product Cards */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 px-6 md:px-12">
@@ -90,12 +87,7 @@ export default function ProductSection() {
         ))}
       </div>
 
-      {/* Show More Button */}
-      <div className="flex items-center justify-center mt-8 mb-12">
-        <button className="productBtn text-[#B88E2F] p-2 px-6 border-2 border-[#B88E2F] hover:bg-[#B88E2F] hover:text-white transition-all duration-300">
-          Show More
-        </button>
-      </div>
+  
     </>
   );
 }
